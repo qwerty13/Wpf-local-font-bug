@@ -116,7 +116,7 @@ namespace WpfFontTest
             lbl_text.FontFamily = new FontFamily("file:///" + AppDomain.CurrentDomain.BaseDirectory + cmb_fonts.SelectedItem.ToString().Substring(1) + "#" + fontName);
             lbl_text2.FontFamily = new FontFamily("file:///" + AppDomain.CurrentDomain.BaseDirectory + cmb_fonts.SelectedItem.ToString().Substring(1) + "#" + fontName);
             lbl_text3.FontFamily = new FontFamily("file:///" + AppDomain.CurrentDomain.BaseDirectory + cmb_fonts.SelectedItem.ToString().Substring(1) + "#" + fontName);
-            lbl_textFont2.Text = "Textblock said it's: " + String.Join(" ", lbl_text.FontFamily.FamilyNames.Values.ToArray<string>());
+            lbl_textFont2.Text = "Textblock said it's: " + lbl_text.FontFamily;
         }
 
         private void btn_addWindow_Click(object sender, RoutedEventArgs e)

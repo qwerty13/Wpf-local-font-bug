@@ -18,6 +18,6 @@
             <ComboBox x:Name="cmb_fonts" Margin="131,0,0,0" Height="33" VerticalAlignment="Top" HorizontalAlignment="Left" Width="179"/>
             <Button x:Name="btn_setfont" Content="Set Font" HorizontalAlignment="Left" Margin="335,0,0,0" VerticalAlignment="Top" Width="85" Height="33" Click="btn_setfont_Click"/>
             <Button x:Name="btn_refreshcombo" Content="Refresh Combo" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Height="33" Click="btn_refreshcombo_Click"/>
-        </Grid>
+        </Grid>//
     </Grid>
 </Window>

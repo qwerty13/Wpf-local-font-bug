@@ -13,7 +13,6 @@
         <TextBlock x:Name="lbl_text2" Text="Test Sample text (123?!)"  Margin="0,110,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="24" />
         <TextBlock x:Name="lbl_text3" Text="ليونيكود (Unicode)، الذي سيعقد في 10-12 آذار 1997 بمدينة مَايِنْتْس، ألمانيا."  Margin="0,150,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="24" FlowDirection="RightToLeft" />
         <TextBlock x:Name="lbl_textFont" Text="Selected Font Name: yechizi" Margin="0,300,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="18"/>
-        <TextBlock x:Name="lbl_textFont2" Text="Textblock said it's: yechizi" Margin="0,330,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="18"/>
         <Grid VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,80">
             <ComboBox x:Name="cmb_fonts" Margin="131,0,0,0" Height="33" VerticalAlignment="Top" HorizontalAlignment="Left" Width="179"/>
             <Button x:Name="btn_setfont" Content="Set Font" HorizontalAlignment="Left" Margin="335,0,0,0" VerticalAlignment="Top" Width="85" Height="33" Click="btn_setfont_Click"/>
